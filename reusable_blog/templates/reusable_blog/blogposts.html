@@ -10,10 +10,10 @@
 
         <div class="col-md-12 thread-btns">
              {% if user.is_authenticated %}
-	<button class="btn btn-default" onclick="location.href='{% url 'new_post' %}'">Add a post</button>
-        <a href="/post/" class="btn btn-primary">Create New Blog Post</a>
+	<button style="text-align:right;" class="btn btn-primary" onclick="location.href='{% url 'new_post' %}'">Add a post</button>
+        
              {% endif %}
-            <a href="/" class="btn btn-danger">Back to Home</a>
+           
         </div>
 
     </div>
