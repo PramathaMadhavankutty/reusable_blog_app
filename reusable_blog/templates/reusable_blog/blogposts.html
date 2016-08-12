@@ -2,9 +2,9 @@
 
 {% block content %}
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 pull-right">
         {% if user.is_authenticated %}
-    <p style="text-align: right;"><button class="btn btn-primary" onclick="location.href='{% url 'new_post' %}'">Add New Blog</button></p>
+    <p><button class="btn btn-primary" onclick="location.href='{% url 'new_post' %}'">Add New Blog</button></p>
         {% endif %}
         </div>
     </div>
