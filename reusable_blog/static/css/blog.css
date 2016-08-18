@@ -84,13 +84,9 @@ a, a:hover {
     max-width: 380px;
     max-height: 280px;
 }
-.detail{
-    margin-left: 20px;
-    padding: 5%;
-}
+.intro{
+    background: white;
 
-.button{
-    padding: 5%;
 }
  
 .txt-container {
