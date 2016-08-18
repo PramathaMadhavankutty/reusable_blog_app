@@ -2,8 +2,9 @@
 
 {% block content %}
     <div class="row">
-       <h2 style="color:white; font-family:Arial;font-weight: bold ">BLOG</h2>
+       <h2 style="color:#000000; font-family:Arial;font-weight: bolder ">BLOG</h2>
     </div>
+    <div class="container">
     {% for post in posts %}
         <div class="row">
             <hr>
@@ -25,5 +26,5 @@
             </div>
         </div>
     {% endfor %}
-
+    </div>
 {% endblock %}
